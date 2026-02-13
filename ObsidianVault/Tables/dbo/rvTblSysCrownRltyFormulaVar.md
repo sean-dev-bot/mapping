@@ -1,0 +1,51 @@
+---
+semantic: 
+schema: dbo
+type: table
+rows: ~14
+primary_key: FormulaVariable
+---
+
+## Description
+
+<!-- Add description here -->
+
+**Schema**: [[dbo]]
+
+**Primary Key**: FormulaVariable
+
+## Columns
+
+| Column | Type | Nullable | PK | Identity | Description |
+|--------|------|----------|----|-----------|--------------|
+| FormulaVariable | char(5) |  | 🔑 |  | placeHolder |
+| FormulaVariableDesc | varchar(50) |  |  |  | placeHolder |
+| FormulaVarTblDef | tinyint |  |  |  | placeHolder |
+| FormulaVarMonthly | tinyint |  |  |  | placeHolder |
+| FormulaVintageReq | tinyint |  |  |  | placeHolder |
+| LastUpdateID | varchar(20) | ✓ |  |  | placeHolder |
+| LastUpdated | smalldatetime | ✓ |  |  | placeHolder |
+
+## Indexes
+
+| Index Name | Type | Unique | Columns |
+|------------|------|--------|----------|
+| PKrvTblSysCrownRltyFormulaVar | CLUSTERED | ✓ | FormulaVariable |
+
+## Business Context
+
+- **Purpose**: 
+- **Data Source**: 
+- **Update Frequency**: 
+- **Owner**: 
+
+## Notes
+
+<!-- Add your notes here -->
+
+
+#database #table #dbo
+## Related Reports
+
+| Report Name | Columns |
+|------------|----------|

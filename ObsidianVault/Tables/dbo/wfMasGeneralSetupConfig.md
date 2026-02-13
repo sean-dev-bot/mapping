@@ -1,0 +1,49 @@
+---
+semantic: 
+schema: dbo
+type: table
+rows: ~2
+primary_key: GeneralSetupConfigID
+---
+
+## Description
+
+<!-- Add description here -->
+
+**Schema**: [[dbo]]
+
+**Primary Key**: GeneralSetupConfigID
+
+## Columns
+
+| Column | Type | Nullable | PK | Identity | Description |
+|--------|------|----------|----|-----------|--------------|
+| GeneralSetupConfigID | int |  | 🔑 | 🔢 | placeHolder |
+| Name | varchar(50) |  |  |  | placeHolder |
+| GeneralSetupConfigJson | varchar(MAX) | ✓ |  |  | placeHolder |
+| LastUpdateID | varchar(20) |  |  |  | placeHolder |
+| LastUpdated | smalldatetime |  |  |  | placeHolder |
+
+## Indexes
+
+| Index Name | Type | Unique | Columns |
+|------------|------|--------|----------|
+| PKwfMasGeneralSetupConfig | CLUSTERED | ✓ | GeneralSetupConfigID |
+
+## Business Context
+
+- **Purpose**: 
+- **Data Source**: 
+- **Update Frequency**: 
+- **Owner**: 
+
+## Notes
+
+<!-- Add your notes here -->
+
+
+#database #table #dbo
+## Related Reports
+
+| Report Name | Columns |
+|------------|----------|
